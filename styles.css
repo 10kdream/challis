@@ -78,6 +78,8 @@ body {
     animation-delay: 1s;
     opacity: 0;
   }
+
+
   
   @keyframes growAndBlur {
     0% {
@@ -102,6 +104,7 @@ body {
     opacity: 0;
     animation: fadeIn 2s ease-in forwards;
     animation-delay: 1s; /* Wait until the heart animation is complete */
+    
   }
   
   @keyframes fadeIn {
@@ -112,4 +115,6 @@ body {
       opacity: 1;
     }
   }
+
+
 
